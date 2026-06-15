@@ -3,6 +3,12 @@
     src: url(Roboto.ttf);
 }
 
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
 body {
     margin: 0;
     font-family: Roboto;
