@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    color: rgb(221, 221, 221);
+}
+
+#box1 {
+    background: linear-gradient(
+        to bottom,
+        rgb(34, 0, 0),
+        rgb(55, 0, 0),
+        rgb(81, 0, 0),
+        rgb(83, 0, 0),
+        rgb(102, 0, 0)
+    );
+
+    display: flow-root;
+}
+
+#img1 {
+    height: 300px;
+    width: 280px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px rgb(44, 1, 1);
+    margin: 30px;
+}
+
+#img2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 3em;
+    float: left;
+    margin-right: 7px;
+}
+
+#album-name {
+    font-size: 8em;
+    margin: 0px;
+    text-shadow: 10px 10px 20px rgb(30, 0, 0);
+}
+
+#album {
+    font-size: 19px;
+    margin-top: 100px;
+    margin-bottom: 0px; 
+    text-shadow: 10px 10px 20px rgb(30, 0, 0)   
+}
+
+#eminem {
+    margin-right: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-shadow: 10px 10px 20px rgb(30, 0, 0)
+}
+
+#box2 {
+    background: linear-gradient(
+        to top,
+        rgb(20, 20, 20),
+        rgb(20, 20, 20),
+        rgb(20, 20, 20),
+        rgb(20, 20, 20),
+        rgb(47, 9, 9)
+    );
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width:96%;
+}
+
+#row1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+#playbutton{
+    text-align: center;
+    font-size:30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(5, 120, 5);
+    border: none;
+}
+
+#symbol {
+    margin-top: -1px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+
+#img3 {
+    height: 60px;
+    width: 48px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 9px;
+    border: 3px solid grey;
+}
+
+#row2 {
+    display: flex;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#title {
+    margin-left: 40px;
+    margin-right: 85%;
+}
+
+#row3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Song {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.E-Logo {
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    margin-top: -19px;
+    margin-right: 8px;
+    margin-left: 18px;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0;
+}
+
+.part1 h3 {
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+.part2 {
+    display: flex;
+    margin-left: 93px;
+    margin-top: 0px;
+}
+
+.Eminem {
+    margin-top: -19px;
+    margin-left: 3px;
+}
+
+.songname {
+    flex: 1;
+    margin: 0;
+    min-width: 0;
+}
+
+a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#comment {
+    margin-top: 50px;
+    padding: 20px 40px;
+    background: rgba(53, 53, 53, 0.5);
+    border-radius: 8px;
+}
+
+#comment label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+#comment-text {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(22, 22, 22, 0.8);
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 4px;
+    color: rgb(221, 221, 221);
+    font-family: Roboto;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+#comment-text::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+}
+
+#comment-text::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#comment-text::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+}
+
+#comment-text:focus {
+    outline: none;
+    border-color: rgb(5, 120, 5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#submit-button {
+    margin-top: 12px;
+    padding: 10px 30px;
+    background-color: rgb(45, 45, 45);
+    color: rgb(221, 221, 221);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+#submit-button:active {
+    background-color: rgb(42, 42, 42);
+}
+
